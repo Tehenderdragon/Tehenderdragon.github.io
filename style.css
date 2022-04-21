@@ -1,10 +1,8 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz); */
+    background: url(basemod.png);
     height: 630px;
     width: 750px;
-    margin-left: -375px;
-    margin-top: -285px;
 }
 .custom.white{
     background: url(basemod.png);
@@ -16,14 +14,10 @@
     display: none;
 }
 .custom .triggers{
-    width: 520px;
+    width: 446px;
     height: 121px;
     position: absolute;
-    left: 126px;
-    top: 239px;
-    background: url(http://i.imgur.com/GaV5RBy.png);
-    /* background-position: -152px 0px; */
-    -webkit-clip-path: 50%;
+    left: 152px;
 }
 .custom .trigger{
     width: 88px;
@@ -51,7 +45,6 @@
     height: 61px;
     left: 107px;
     top: 129px;
-    display: none;
 }
 .custom .bumper.pressed{
     opacity: 1;
@@ -66,7 +59,7 @@
 }
 .custom .quadrant{
     position: absolute;
-    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/quadrant.svgz); */
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/quadrant.svgz);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -95,7 +88,6 @@
     height: 33px;
     top: 264px;
     left: 306px;
-    display: none;
 }
 .custom .back, .custom .start{
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/start-select.svgz);
@@ -115,10 +107,10 @@
 }
 .custom .abxy{
     position: absolute;
-    width: 157px;
-    height: 164px;
-    top: 231px;
-    left: 388px;
+    width: 153px;
+    height: 156px;
+    top: 192px;
+    left: 488px;
     background: url(http://i.imgur.com/tE4M2o4.png);
     /* background-size: contain; */
 }
@@ -155,14 +147,10 @@
 }
 .custom .sticks{
     position: absolute;
-    width: 137px;
-    height: 139px;
+    width: 371px;
+    height: 196px;
     top: 239px;
-    left: 224px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
-    background-position: -117px -214px;
-    -webkit-clip-path: circle(50% at center);
-    clip-path: circle(50% at center);
+    left: 144px;
 }
 .custom .stick{
     position: absolute;
@@ -175,13 +163,12 @@
     background-position: 0 0;
 }
 .custom .stick.left{
-    top: 24px;
-    left: 27px;
+    top: 0;
+    left: 0;
 }
 .custom .stick.right{
     top: 113px;
     left: 288px;
-    display: none;
 }
 .custom .dpad{
     position: absolute;
@@ -189,7 +176,6 @@
     height: 111px;
     top: 345px;
     left: 223px;
-    display: none;
 }
 .custom .face{
     background: url(http://mrmcpowned.com/gamepad/xbox-assets/dpad.svgz);
